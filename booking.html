@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Sets the character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Makes the website responsive on different devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title shown on the browser tab -->
+    <title>Booking - Shots by Bugs</title>
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header>
+
+        <!-- Main heading -->
+        <h1>Shots by Bugs Photography</h1>
+
+        <!-- Navigation menu -->
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="gallery.html">Gallery</a> |
+            <a href="services.html">Services</a> |
+            <a href="booking.html">Booking</a> |
+            <a href="contact.html">Contact Us</a>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <!-- Main content -->
+    <main>
+
+        <h2>Book a Photography Session</h2>
+
+        <p>
+            Complete the form below to enquire about a photography session.
+        </p>
+
+        <!-- Booking form -->
+        <form>
+
+            <!-- Customer name -->
+            <label for="name">Full Name:</label>
+            <br>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <!-- Customer email -->
+            <label for="email">Email Address:</label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <!-- Customer phone number -->
+            <label for="phone">Phone Number:</label>
+            <br>
+            <input type="tel" id="phone" name="phone" required>
+            <br><br>
+
+            <!-- Type of photography -->
+            <label for="service">Photography Service:</label>
+            <br>
+            <select id="service" name="service">
+
+                <option value="graduation">Graduation Photography</option>
+                <option value="birthday">Birthday and Event Photography</option>
+                <option value="family">Family Portraits</option>
+                <option value="couple">Couple Photography</option>
+                <option value="business">Small Business Photography</option>
+
+            </select>
+
+            <br><br>
+
+            <!-- Preferred date -->
+            <label for="date">Preferred Date:</label>
+            <br>
+            <input type="date" id="date" name="date">
+            <br><br>
+
+            <!-- Additional information -->
+            <label for="message">Additional Information:</label>
+            <br>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea>
+            <br><br>
+
+            <!-- Submit button -->
+            <button type="submit">Submit Booking</button>
+
+        </form>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer section -->
+    <footer>
+
+        <p>&copy; 2026 Shots by Bugs Photography. All rights reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>

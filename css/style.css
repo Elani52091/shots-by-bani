@@ -1,0 +1,100 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header section */
+header {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Main heading */
+header h1 {
+    margin: 0 0 15px;
+}
+
+/* Navigation menu */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+/* Change link appearance when the mouse is over it */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+/* Headings */
+h2 {
+    color: #b8860b;
+}
+
+h3 {
+    color: #444;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+}
+
+/* Sections */
+section {
+    margin-bottom: 25px;
+}
+
+/* Form labels */
+label {
+    font-weight: bold;
+}
+
+/* Form inputs */
+input,
+select,
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Buttons */
+button {
+    background-color: #b8860b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #8f6908;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
