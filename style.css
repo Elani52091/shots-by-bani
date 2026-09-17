@@ -1,0 +1,199 @@
+/* Shots by Bugs Photography - Part 2 */
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+/* Main content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 25px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #222;
+    font-size: 28px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 8px;
+}
+
+section h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Gallery layout */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Buttons */
+button,
+.button {
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover,
+.button:hover {
+    background-color: #d4af37;
+    color: #222;
+}
+
+/* Forms */
+form {
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    min-height: 120px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    main {
+        padding: 30px 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    main {
+        padding: 20px 15px;
+    }
+
+    section h2 {
+        font-size: 23px;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery img {
+        height: 220px;
+    }
+
+    button,
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
