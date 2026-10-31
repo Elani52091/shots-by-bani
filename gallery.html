@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Gallery - Shots by Bugs Photography</title>
+    <title>Photography Gallery | Shots by Bugs</title>
+
+    <meta name="description" content="View the photography portfolio of Shots by Bugs Photography, featuring graduations, portraits, birthdays and special events.">
+
+    <meta name="keywords" content="photography gallery, photography portfolio, graduation photos, birthday photos, family portraits">
+
+    <meta name="author" content="Shots by Bugs Photography">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -20,45 +26,86 @@
             <a href="about.html">About Us</a>
             <a href="gallery.html">Gallery</a>
             <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
             <a href="booking.html">Booking</a>
-            <a href="contact.html">Contact Us</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
     <hr>
 
     <main>
+        <section>
+            <h2>Our Photography Gallery</h2>
 
-        <h2>Our Gallery</h2>
+            <p>Explore some of our photography work and the special moments we capture.</p>
 
-        <p>
-            Take a look at some of the moments captured by
-            Shots by Bugs Photography.
-        </p>
+            <!-- Search photographs -->
+            <label for="gallerySearch">Search the gallery:</label>
+            <input type="text" id="gallerySearch" placeholder="Search photographs...">
 
-        <section class="gallery">
+            <!-- Photography images -->
+            <div class="gallery">
 
-            <img src="images/photo1.jpg" alt="Photography by Shots by Bugs">
+                <figure>
+                    <img src="images/photo1.jpg" alt="Graduation photography">
+                    <figcaption>Graduation Photography</figcaption>
+                </figure>
 
-            <img src="images/photo2.jpg" alt="Photography by Shots by Bugs">
+                <figure>
+                    <img src="images/photo2.jpg" alt="Birthday celebration photography">
+                    <figcaption>Birthday Photography</figcaption>
+                </figure>
 
-            <img src="images/photo3.jpg" alt="Photography by Shots by Bugs">
+                <figure>
+                    <img src="images/photo3.jpg" alt="Family portrait photography">
+                    <figcaption>Family Portraits</figcaption>
+                </figure>
 
-            <img src="images/photo4.jpg" alt="Photography by Shots by Bugs">
+                <figure>
+                    <img src="images/photo4.jpg" alt="Special event photography">
+                    <figcaption>Special Events</figcaption>
+                </figure>
 
-            <img src="images/photo5.jpg" alt="Photography by Shots by Bugs">
+                <figure>
+                    <img src="images/photo5.jpg" alt="Creative portrait photography">
+                    <figcaption>Portrait Photography</figcaption>
+                </figure>
 
-            <img src="images/photo6.jpg" alt="Photography by Shots by Bugs">
+                <figure>
+                    <img src="images/photo6.jpg" alt="Professional photography">
+                    <figcaption>Photography Moments</figcaption>
+                </figure>
 
-            <img src="images/photo7.jpg" alt="Photography by Shots by Bugs">
+                <figure>
+                    <img src="images/photo7.jpg" alt="Outdoor photography">
+                    <figcaption>Outdoor Photography</figcaption>
+                </figure>
 
-            <img src="images/photo8.jpg" alt="Photography by Shots by Bugs">
+                <figure>
+                    <img src="images/photo8.jpg" alt="Couple photography">
+                    <figcaption>Couple Photography</figcaption>
+                </figure>
 
-            <img src="images/photo9.jpg" alt="Photography by Shots by Bugs">
+                <figure>
+                    <img src="images/photo9.jpg" alt="Event photography">
+                    <figcaption>Event Photography</figcaption>
+                </figure>
 
-            <img src="images/photo10.jpg" alt="Photography by Shots by Bugs">
+                <figure>
+                    <img src="images/photo10.jpg" alt="Photography portfolio">
+                    <figcaption>Our Photography Work</figcaption>
+                </figure>
 
+            </div>
         </section>
+
+        <!-- Image lightbox -->
+        <div id="lightbox" class="lightbox">
+            <span id="closeLightbox">&times;</span>
+            <img id="lightboxImage" src="" alt="Enlarged photograph">
+        </div>
 
     </main>
 
@@ -67,6 +114,8 @@
     <footer>
         <p>&copy; 2026 Shots by Bugs Photography. All rights reserved.</p>
     </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
 

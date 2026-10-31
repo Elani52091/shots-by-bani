@@ -50,8 +50,7 @@
 
         <!-- Contact information -->
         <section>
-
-            <h3>Our Contact Details</h3>
+            <h2>Contact Us</h2>
 
             <p>
                 <strong>Phone:</strong> 075 325 8293
@@ -62,42 +61,64 @@
             </p>
 
             <p>
-                <strong>Instagram:</strong> @bugs.bani_
+                Instagram:
+                <a href="https://www.instagram.com/bugs.bani_/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    @bugs.bani_
+                </a>
             </p>
 
         </section>
 
         <!-- Contact form -->
         <section>
+            <h2>Send Us a Message</h2>
 
-            <h3>Send Us a Message</h3>
+            <form id="contactForm">
 
-            <form>
+                <label for="contactName">Full Name:</label>
+                <input type="text" id="contactName" name="name" required>
 
-                <!-- Name -->
-                <label for="name">Full Name:</label>
-                <br>
-                <input type="text" id="name" name="name" required>
-                <br><br>
+                <label for="contactEmail">Email Address:</label>
+                <input type="email" id="contactEmail" name="email" required>
 
-                <!-- Email -->
-                <label for="email">Email Address:</label>
-                <br>
-                <input type="email" id="email" name="email" required>
-                <br><br>
+                <label for="contactMessage">Your Message:</label>
+                <textarea id="contactMessage" name="message" rows="5" required></textarea>
 
-                <!-- Message -->
-                <label for="message">Message:</label>
-                <br>
-                <textarea id="message" name="message" rows="5" cols="30"></textarea>
-                <br><br>
-
-                <!-- Submit button -->
                 <button type="submit">Send Message</button>
+
+                <p id="contactFormMessage" aria-live="polite"></p>
 
             </form>
 
         </section>
+       <!-- Business Location Map -->
+<section>
+    <h2>Find Us</h2>
+
+    <p>
+        Visit Shots by Bugs Photography at
+        3 Blenheim Street, Ormonde View, Nasrec.
+    </p>
+
+    <iframe
+        src="https://www.google.com/maps?q=3+Blenheim+Street,+Ormonde+View,+Nasrec,+Johannesburg&output=embed"
+        width="100%"
+        height="350"
+        style="border: 1px solid #ccc;"
+        loading="lazy"
+        title="Map showing Shots by Bugs Photography location">
+    </iframe>
+
+    <p>
+        <a href="https://www.google.com/maps/search/?api=1&query=3+Blenheim+Street+Ormonde+View+Nasrec+Johannesburg"
+           target="_blank"
+           rel="noopener noreferrer">
+            Get directions
+        </a>
+    </p>
+</section>
 
     </main>
 
@@ -109,6 +130,8 @@
         <p>&copy; 2026 Shots by Bugs Photography. All rights reserved.</p>
 
     </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
 

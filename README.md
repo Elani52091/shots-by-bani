@@ -76,3 +76,42 @@ Adobe. (2025) *Photography*. Available at: https://www.adobe.com/creativecloud/p
 MDN Web Docs. (2025) *HTML: HyperText Markup Language*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML
 
 W3Schools. (2025) *HTML Tutorial*. Available at: https://www.w3schools.com/html/
+
+## Part 3 - Updates and Improvements
+
+### Website Improvements
+- Updated the website pages with SEO titles and meta descriptions.
+- Improved image descriptions using alt text.
+- Added a separate enquiry page for photography service enquiries.
+- Added a contact form for general messages.
+- Added an interactive photography gallery search.
+- Added a photo lightbox to enlarge gallery images.
+- Added an interactive map showing the business location.
+- Added hover effects and page animations.
+- Created a robots.txt file.
+- Created a sitemap.xml file.
+- Improved website navigation and internal links.
+
+### JavaScript Functionality
+- Added gallery search functionality.
+- Added image lightbox functionality.
+- Added form validation and confirmation messages.
+
+### Files Added
+- enquiry.html
+- js/script.js
+- robots.txt
+- sitemap.xml
+
+## Additional Part 3 Updates
+
+### AJAX Functionality
+- Added JavaScript fetch functionality to the enquiry form.
+- Connected the enquiry form to FormSubmit.
+- Added form submission status messages.
+- Updated the business contact email address.
+
+### Performance
+- Reviewed the website images for loading performance.
+- Used lazy loading for the location map.
+- Added responsive viewport settings to the website pages.
